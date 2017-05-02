@@ -10,11 +10,11 @@ hunter_add_version(
     PACKAGE_NAME
     cnats
     VERSION
-    "1.4.4"
+    "1.5.0"
     URL
-    "https://github.com/nats-io/cnats/archive/v1.4.4.tar.gz"
+    "https://github.com/nats-io/cnats/archive/v1.5.0.tar.gz"
     SHA1
-    52e34602430578700a1a21a1183c6af5f7ade240
+    0343535115F65E3B7B790557EE47D937AA3D24A4
 )
 
 # Probably more versions for real packages...
