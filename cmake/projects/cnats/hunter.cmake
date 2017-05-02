@@ -12,9 +12,9 @@ hunter_add_version(
     VERSION
     "1.5.0"
     URL
-    "https://github.com/dmpriso/cnats/archive/dmpriso1.tar.gz"
+    "https://github.com/dmpriso/cnats/archive/dmpriso2.tar.gz"
     SHA1
-    83DC3BD1B5DAEB141AA705CA3C8C843AE3599283
+    2ACCBEABE5FD3CC52EB15D6403E0C3EFF06DD849
 )
 
 # Probably more versions for real packages...
