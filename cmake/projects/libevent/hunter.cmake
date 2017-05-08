@@ -14,7 +14,7 @@ hunter_add_version(
     URL
     "https://github.com/libevent/libevent/archive/release-2.1.8-stable.tar.gz"
     SHA1
-    8A37AD06DD28ED3DA785819DA297B1A3B2EA9307
+    8a37ad06dd28ed3da785819da297b1a3b2ea9307
 )
 
 # Probably more versions for real packages...
