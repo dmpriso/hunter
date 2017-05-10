@@ -14,7 +14,7 @@ hunter_add_version(
     URL
     "https://github.com/dmpriso/cnats/archive/dmpriso4.tar.gz"
     SHA1
-    4079aee7d708fe7e68aa774c80d58c1c94636e0d
+    b55e431b60ba166d7c3715501b4c27eda5c3333a
 )
 
 # Probably more versions for real packages...
