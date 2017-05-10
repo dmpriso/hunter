@@ -46,12 +46,6 @@ function(hunter_create_args_file args filename)
             "${bad_message} (variable name is empty): ${args}"
         )
       endif()
-      string(COMPARE EQUAL "${var_value}" "" is_empty)
-      if(is_empty)
-        hunter_user_error(
-            "${bad_message} (variable value is empty): ${args}"
-        )
-      endif()
       ### -- end
       file(APPEND "${filename}" "set(")
       file(
