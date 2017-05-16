@@ -317,7 +317,9 @@ if(CMAKE_EXE_LINKER_FLAGS)
   list(APPEND build_opts "linkflags=${CMAKE_EXE_LINKER_FLAGS}")
 endif()
 
-list(APPEND build_opts "runtime-link=static")
+if(B2_RUNTIME_LINKING)
+  list(APPEND build_opts "runtime-link=${B2_RUNTIME_LINKING}")
+endif()
   
 string(COMPARE EQUAL "@HUNTER_MSVC_ARCH@" "amd64" is_x64)
 if("@MSVC@" AND is_x64)
