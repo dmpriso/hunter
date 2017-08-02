@@ -8,7 +8,7 @@ include(hunter_pick_scheme)
 # List of versions here...
 hunter_add_version(
     PACKAGE_NAME
-    libevent
+    Libevent
     VERSION
     "2.1.8"
     URL
@@ -26,4 +26,4 @@ hunter_pick_scheme(DEFAULT url_sha1_cmake) # use scheme for cmake projects
 # Two versions of library will be build by default:
 #     * libexample_A.a
 #     * libexample_Ad.a
-hunter_download(PACKAGE_NAME libevent)
+hunter_download(PACKAGE_NAME Libevent)
