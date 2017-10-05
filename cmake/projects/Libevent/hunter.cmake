@@ -9,8 +9,8 @@ include(hunter_pick_scheme)
 hunter_add_version(
     PACKAGE_NAME Libevent
     VERSION "2.1.9"
-    URL "https://github.com/dmpriso/libevent/archive/dmpriso1.tar.gz"
-    SHA1 "F5462FD61FC9F31D3BBBD29392CE137E2839711B")
+    URL "https://github.com/dmpriso/libevent/archive/dmpriso2.tar.gz"
+    SHA1 "4D8B47B8AE2F754D47FBA43AFC1BC048D1673CF3")
 hunter_cmake_args(Libevent CMAKE_ARGS
                   EVENT__DISABLE_TESTS=ON
                   EVENT__DISABLE_SAMPLES=ON
